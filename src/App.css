@@ -7,13 +7,35 @@
 }
 
 .app_header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: white;
   object-fit: contain;
   border-bottom: 1px solid lightgray;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.app__postsright {
+  margin-left: 20px;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__headerImage {
+  object-fit: contain;
 }
 
 .app__signup {
+  object-fit: contain;
   display: flex;
   flex-direction: column;
+}
+used {
+  /*React Instagram embed*/
 }
